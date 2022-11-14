@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FurnitureList</title>
+  </head>
+  <body>
+    <div class="img">
+      <img
+        src="https://media.designcafe.com/wp-content/uploads/2019/12/17054440/living-room-furniture-design-for-your-home.jpg"
+        alt=""
+      />
+    </div>
+
+    <div class="text-area">
+      <h1>Furniture List</h1>
+      <textarea name="text" id="textArea" cols="50" rows="5"></textarea>
+      <button id="generateBtn">Generate</button>
+    </div>
+
+    <div class="furniture-list">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Mark</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <div class="buy-section">
+      <textarea name="" id="buySection" cols="30" rows="5"></textarea>
+      <button id="buyBtn">Buy</button>
+    </div>
+
+    <script src="solution.js"></script>
+  </body>
+</html>
